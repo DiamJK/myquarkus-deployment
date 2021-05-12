@@ -1,0 +1,13 @@
+resources:
+- ../base
+
+patches:
+- path: traffic-routing.yaml
+  target:
+    kind: Service
+- path: rf815892/revision-patch.yaml
+  target:
+    kind: Service
+- path: rf815892/routing-patch.yaml
+  target:
+    kind: Service

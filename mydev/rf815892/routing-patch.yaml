@@ -1,0 +1,5 @@
+- op: add
+  path: /spec/traffic/-
+  value:
+    tag: rf815892
+    revisionName: myquarkus-rf815892
