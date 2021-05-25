@@ -1,0 +1,8 @@
+- op: add
+  path: /spec/template/metadata
+  value:
+    name: myquarkus-rbb6359d
+- op: add
+  path: /spec/template/spec/containers/0/image
+  value:
+    image-registry.openshift-image-registry.svc.cluster.local:5000/mycicd/myquarkus:bb6359d49383ebc76a5ebb0b0e4fa2e33d124ee4
